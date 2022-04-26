@@ -30,7 +30,7 @@ public class Project1
 	
 	
 	//A private class method that takes three instances of Weight and returns maximum
-	private void findMaximum(Weight objTwo, Weight objTwo, Weight objThree) {
+	private void findMaximum(Weight objOne, Weight objTwo, Weight objThree) {
 	    System.out.print("Weight One: " + objOne.toString() + " "); 
 	    System.out.print("Weight Two: " + objTwo.toString() + " ");
 	    System.out.println("Weight Three: " + objThree.toString() + " ");
@@ -40,7 +40,7 @@ public class Project1
 	
 	
 	//A private class method that takes three instances of weight and returns Average
-	private void findAverage(Weight objTwo, Weight objTwo, Weight objThree) {
+	private void findAverage(Weight objOne, Weight objTwo, Weight objThree) {
 	    System.out.print("Weight One: " + objOne.toString() + " "); 
 	    System.out.print("Weight Two: " + objTwo.toString() + " ");
 	    System.out.println("Weight Three: " + objThree.toString() + " ");
