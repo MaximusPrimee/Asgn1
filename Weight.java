@@ -42,6 +42,7 @@ public class Weight
     public void addsTo(Weight objTwo) {
         this.pounds += objTwo.pounds;
         this.ounces += objTwo.ounces;
+        normalize();
     }
     
     
