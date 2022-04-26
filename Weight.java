@@ -59,7 +59,7 @@ public class Weight
     
     
     //A private method that normalizes the weight
-    private boolean normalize(double ounces) {
+    private void normalize() {
         while(this.ounces > this.OUNCES_IN_POUND) {
             this.ounces -= this.OUNCES_IN_POUND;
             this.pounds++;
